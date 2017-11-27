@@ -2,10 +2,7 @@ package fr.free.bkake.springjooq.repository;
 
 import fr.free.bkake.springjooq.configuration.Config;
 import fr.free.bkake.springjooq.domain.tables.pojos.Author;
-import fr.free.bkake.springjooq.utils.ImmutableReferences;
-import fr.free.bkake.springjooq.utils.References;
 import org.jooq.DSLContext;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
@@ -16,7 +13,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.inject.Inject;
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;

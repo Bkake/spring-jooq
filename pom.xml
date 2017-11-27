@@ -199,25 +199,25 @@
                                     <includes>.*</includes>
                                     <excludes></excludes>
                                     <customTypes>
-										<customType>
-											<name>LocalDate</name>
-											<type>java.time.LocalDate</type>
-											<converter>fr.free.bkake.springjooq.converter.LocalDateConverter</converter>
-										</customType>
-									</customTypes>
-									<forcedTypes>
-										<forcedType>
-											<name>LocalDate</name>
+                                        <customType>
+                                            <name>LocalDate</name>
+                                            <type>java.time.LocalDate</type>
+                                            <converter>fr.free.bkake.springjooq.converter.LocalDateConverter</converter>
+                                        </customType>
+                                    </customTypes>
+                                    <forcedTypes>
+                                        <forcedType>
+                                            <name>LocalDate</name>
                                             <expression>.*\.DATE_OF_.*</expression>
                                             <types>.*</types>
-										</forcedType>
-									</forcedTypes>
+                                        </forcedType>
+                                    </forcedTypes>
                                     <inputSchema>PUBLIC</inputSchema>
                                 </database>
                                 <generate>
                                     <pojos>true</pojos>
                                     <records>false</records>
-                                   <!-- <validationAnnotations>true</validationAnnotations>-->
+                                    <!-- <validationAnnotations>true</validationAnnotations>-->
                                     <fluentSetters>true</fluentSetters>
                                 </generate>
                                 <target>
